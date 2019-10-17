@@ -17,7 +17,7 @@ do
     sudo chmod 777 jenkins
     cd jenkins
     cp /home/sanem_ashokgoud/jenkins/test/lamp/credentials.json .
-    sudo sed -i 's/tvalues/'$t1'/' terraform.tfvars
+    sudo sed -i 's/tvalues/'j'/' terraform.tfvars
     sudo sed -i 's/tname/'$tool_name'/' terraform.tfvars
     sudo sed -i 's/ttype/'$tool'/' terraform.tfvars
     sudo sed -i 's/timestamp/'$time'/' terraform.tfvars
@@ -33,7 +33,7 @@ do
     sudo chmod 777 sonarqube
     cd sonarqube
     cp /home/sanem_ashokgoud/jenkins/test/lamp/credentials.json .
-    sudo sed -i 's/tvalues/'$t1'/' terraform.tfvars
+    sudo sed -i 's/tvalues/'s'/' terraform.tfvars
     sudo sed -i 's/tname/'$tool_name'/' terraform.tfvars
     sudo sed -i 's/ttype/'$tool'/' terraform.tfvars
     sudo sed -i 's/timestamp/'$time'/' terraform.tfvars
@@ -49,7 +49,7 @@ do
     sudo chmod 777 maven
     cd maven
     cp /home/sanem_ashokgoud/jenkins/test/lamp/credentials.json .
-    sudo sed -i 's/tvalues/'$t1'/' terraform.tfvars
+    sudo sed -i 's/tvalues/'m'/' terraform.tfvars
     sudo sed -i 's/tname/'$tool_name'/' terraform.tfvars
     sudo sed -i 's/ttype/'$tool'/' terraform.tfvars
     sudo sed -i 's/timestamp/'$time'/' terraform.tfvars
@@ -65,7 +65,7 @@ do
     sudo chmod 777 harbor
     cd harbor
     cp /home/sanem_ashokgoud/jenkins/test/lamp/credentials.json .
-    sudo sed -i 's/tvalues/'$t1'/' terraform.tfvars
+    sudo sed -i 's/tvalues/'h'/' terraform.tfvars
     sudo sed -i 's/tname/'$tool_name'/' terraform.tfvars
     sudo sed -i 's/ttype/'$tool'/' terraform.tfvars
     sudo sed -i 's/timestamp/'$time'/' terraform.tfvars
