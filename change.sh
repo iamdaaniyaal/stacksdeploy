@@ -1,3 +1,4 @@
+#!/bin/bash
 export another=$(echo $tools)
 export t1=$(echo $tools | sed "s/,/-/g")
 export time=$(date +"%m%d%y%H%M%S")
